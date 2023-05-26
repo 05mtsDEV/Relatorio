@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relatorio Tecnico</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="TL">Relatorio Tecnico</h1>
+        <br>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label>Cliente</label>
+                <input type="text" name="Cliente" id="Cliente">
+            </div>
+            <div>
+                <label>CNPJ</label>
+                <input type="text" name="CNPJ" maxlength="18" id="CNPJ"> 
+            </div>
+            <div>
+                <label>Solicitante</label>
+                <input type="text" name="Solicitante" id="Solicitante">
+            </div>
+            <div>
+                <label>Telefone Pra contato</label>
+                <input type="tel" name="Telefone Pra contato" id="Telefone Pra contato">
+            </div>
+        </fieldset>
+            
+        <div>
+            <label>Tipo de Atendimento:</label>
+        <label>
+            <input type="radio" name="Tipo" value="Visita Tecnica de Microinformatica"> Visita Tecnica De Microinformatica
+        </label>
+        
+        <label>
+            <input type="radio" name="Tipo" value="Visita Tecnica de Rede"> Visita Tecnica De Rede
+        </label>
+
+        <label>
+            <input type="radio" name="Tipo" value="Instalação"> Instalação
+        </label>
+        
+        </div>
+
+        <fieldset>
+            <div>
+                <label>Tecnico Resposavel</label>
+                <input type="text" name="Tecnico Resposavel" id="Tecnico Resposavel">
+            </div>
+            <div>
+                <label>Inicio do Atendimento</label>
+                <input type="date" name="Inicio do Atendimento" id="Inicio do Atendimento"> <input type="time" name="Inicio" id="Inicio do Atendimento">
+            </div>
+            <div><label>Fim Do Atendimento</label>
+                <input type="date" name="Fim Do Atendimento" id="Fim Do Atendimento"> <input type="time" name="Fim Do Atendimento" id="Fim Do Atendimento"></div>
+            <div>
+                <label>Equipamento:</label>
+                <label>
+                    <input type="radio" name="Equipamento" value="Desktop"> Desktop 
+                </label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <div>
+                <br>
+                <label>Problema Relatado:</label>
+                <textarea row="30" style="width: 30em" id="Pr"></textarea>
+            </div>
+        </fieldset>
+          
+        <button type="submit">Gerar Relatorio</button>
+          
+
+    <form>
+    
+</body>
+</html>
