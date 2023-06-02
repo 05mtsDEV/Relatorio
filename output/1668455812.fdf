@@ -1,0 +1,11 @@
+%FDF-1.2
+1 0 obj << /FDF << /Fields[
+<< /V (asdf) /T (Name) >>
+<< /V /On /T (Checkbox_1) >> 
+<< /V /Choice#201 /T (Radio_Group_1) >>
+<< /V (Option 2) /T (Dropdown) >>
+] >> >>
+endobj
+trailer
+<</Root 1 0 R>>
+%%EOF
